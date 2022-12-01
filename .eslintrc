@@ -1,5 +1,5 @@
 {
-  "extends": "react-app",
+  "extends": ["./node_modules/gts", "react-app"],
   "rules": {
     "no-control-regex": 0,
     "@typescript-eslint/no-unused-vars": ["warn", {
